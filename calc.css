@@ -1,0 +1,52 @@
+        body {
+            background-image: url(https://img2.goodfon.ru/wallpaper/nbig/7/b4/tekstura-fon-sledy-lapki.jpg);
+
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 500;
+            color: rgb(43, 15, 2);
+        }
+
+        button {
+            color: rgb(41, 8, 3);
+            background-color: rgb(181, 243, 243);
+            width: 5vh;
+            border-radius: 20%;
+            height: 3vw;
+            margin: 10px;
+            font-weight: bolder;
+            font-size: 150%;
+        }
+
+        .calc {
+            display: flex;
+            flex-direction: column;
+            margin: 9%;
+        }
+
+        .number {
+            display: inline-flex;
+            justify-content: space-evenly;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        p {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-style: italic;
+            font-variant: small-caps;
+            font-weight: bolder;
+            font-size: 150%;
+            color: rgb(83, 3, 87);
+        }
+
+        #num1,
+        #num2,
+        #out {
+            width: 10vh;
+        }
