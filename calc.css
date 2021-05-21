@@ -46,13 +46,7 @@
         }
 
         #num1,
-        #num2 {
-            width: 10vh;
-        }
-
+        #num2,
         #out {
             width: 10vh;
-            font-weight: bolder;
-            font-size: 7vh;
-            color: rgb(64, 247, 8);
         }

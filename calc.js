@@ -55,10 +55,10 @@ function division() {
 
     num2 = document.getElementById('num2').value;
     num2 = parseInt(num2);
-
-
-    result = num1 / num2;
-
-
-    document.getElementById('out').innerHTML = result;
+    if (num2 == 0) {
+        alert(" На ноль делить нельзя!");
+    } else {
+        result = num1 / num2;
+        document.getElementById('out').innerHTML = result;
+    }
 }
